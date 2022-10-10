@@ -4,11 +4,15 @@ let nombre = "razon_social";
 const nit = "nit";
 let direccion = "direccion";
 const telefono = "telefono";
-let Region = "Region";
+let pais = "pais";
 
 
 console.log(nombre + " " + nit + " " 
-+ "direccion" + " " + telefono + " " + Region);
++ "direccion" + " " + telefono + " " + "pais");
 
-let trabajadores = ["maria","pedro"];   // arreglos forma 1
-trabajadores2[2]="german";              // arreglos forma 2
+
+//let info = document.write(nombre);
+let info = document.getElementById("dato");
+info.innerHTML = ("nombre" + " " + "nit" + " " 
++ "direccion" + " " + telefono + " " + "pais" );
+
